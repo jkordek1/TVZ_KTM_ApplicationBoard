@@ -1114,9 +1114,9 @@
   (no_connect (at 219.075 111.125) (uuid 254783ea-3f03-4fa8-bf78-d5311b582053))
   (no_connect (at 219.075 108.585) (uuid 26bcbc4e-7dd9-48b1-9fa8-a8b8e2b580d8))
   (no_connect (at 269.875 128.905) (uuid 288969a6-fc89-40ea-89d9-04a56100c15a))
-  (no_connect (at 269.875 126.365) (uuid 288969a6-fc89-40ea-89d9-04a56100c15a))
-  (no_connect (at 257.175 131.445) (uuid 288969a6-fc89-40ea-89d9-04a56100c15a))
-  (no_connect (at 231.775 141.605) (uuid 288969a6-fc89-40ea-89d9-04a56100c15a))
+  (no_connect (at 269.875 126.365) (uuid 288969a6-fc89-40ea-89d9-04a56100c15b))
+  (no_connect (at 257.175 131.445) (uuid 288969a6-fc89-40ea-89d9-04a56100c15c))
+  (no_connect (at 231.775 141.605) (uuid 288969a6-fc89-40ea-89d9-04a56100c15d))
   (no_connect (at 257.175 141.605) (uuid 28e2175b-4fcf-490f-aebd-3d710cdec85c))
   (no_connect (at 183.515 108.585) (uuid 29a7b211-3207-4ec4-9b6b-a09e3108a9e0))
   (no_connect (at 219.075 128.905) (uuid 29b28070-4203-4c17-94db-eba5051d7218))
@@ -1767,7 +1767,7 @@
     (uuid fecda78e-b557-42fd-b8a0-ac5e3d9eab02)
   )
 
-  (text "- SDA i SCL nisu spojeni\n- TXD/RXD nisu spojeni\n- POT nije spojen"
+  (text "- SDA i SCL nisu spojeni\n- TXD/RXD nisu spojeni\n- POT nije spojen\n- spi nije spojen do kraja"
     (at 25.4 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid faaca1da-f601-4367-9df8-043b2a029e47)
