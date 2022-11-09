@@ -1767,7 +1767,7 @@
     (uuid fecda78e-b557-42fd-b8a0-ac5e3d9eab02)
   )
 
-  (text "- SDA i SCL nisu spojeni\n- TXD/RXD nisu spojeni\n- POT nije spojen\n- spi nije spojen do kraja"
+  (text "- SDA i SCL nisu spojeni\n- TXD/RXD nisu spojeni\n- POT nije spojen\n- spi nije spojen do kraja\n- ušica za sonde osciloskopa (oba kanala)"
     (at 25.4 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid faaca1da-f601-4367-9df8-043b2a029e47)
