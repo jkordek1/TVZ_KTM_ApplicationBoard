@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Footprints")(type "KiCad")(uri "C:/Users/Josip/Documents/GitHub/CNLJS/KiCad files/Main Project/CNLJS.pretty/Footprints.pretty")(options "")(descr ""))
+  (lib (name "Footprint")(type "KiCad")(uri "${KIPRJMOD}/Footprint.pretty")(options "")(descr ""))
 )
