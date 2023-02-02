@@ -3110,7 +3110,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4511e6e-d37d-4561-a934-8d318b24a997)
   )
-  (text "- LEDice nisu spojene (Green)\n- ušica za sonde osciloskopa na raznim mjestima, promjer rupa je dobar, samo ih treba još dodati, KEYS4952 je TME serial number\n- broj GND ušica?\n- provjeriti vrijednosti otpornika za LEDice\n- provjeriti vrijednosti pullup otpronika za senzor temperature\n- odvojiti i2c i spi (jumperima ili promijeniti pinove)\n- provjeriti da li su potrebni pullup za međusobnu kom. i pullup za temp senzor ili mogu biti samo jedni"
+  (text "- LEDice nisu spojene (Green)\n- ušica za sonde osciloskopa na raznim mjestima, promjer rupa je dobar, samo ih treba još dodati, KEYS4952 je TME serial number\n- broj GND ušica?\n- provjeriti vrijednosti otpornika za LEDice\n- provjeriti vrijednosti pullup otpronika za senzor temperature\n- odvojiti i2c i spi (jumperima ili promijeniti pinove)\n- provjeriti da li su potrebni pullup za međusobnu kom. i pullup za temp senzor ili mogu biti samo jedni\n- tvz logo\n- jk logo iza"
     (at 15.24 191.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid faaca1da-f601-4367-9df8-043b2a029e47)
