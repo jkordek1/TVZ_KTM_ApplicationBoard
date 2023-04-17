@@ -30,6 +30,7 @@ This project is market as work in progress and is not ready yet for a full relea
     ├── Images                  # Images of the project
     ├── KiCAD files             # Main KiCAD project folder
     │   ├── Datasheet           # Datasheet collection
+    │   ├── jlcpcb              # jlcpcb production files
     │   ├── Graphics            # Custom graphics for PCB
     │   └── gerber              # gerber output folder
     └── ...
