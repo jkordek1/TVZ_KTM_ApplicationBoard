@@ -12,11 +12,25 @@
 
 Expansion board for two Nucleo 64 boards (master and slave), developed in 2022 for students studying at Zagreb university of applied sciences.
 It enables quick and easy firmware development without the need of connecting different modules via breadboard and jumpers.
- 
+
+## Work in progress
+This project is market as work in progress and is not ready yet for a full release.
+
  ## Features
  - Toggle switches
  - LEDs
  - MCP2551 high-speed CAN transceiver
  - Digital I2C temperature sensor with address selection jumpers
  - Probe clips for easy oscilloscope connections
+ 
+ ## Folder structure
+    .
+    ├── ...
+    ├── 3d models               # 3D models of components
+    ├── Images                  # Images of the project
+    ├── KiCAD files             # Main KiCAD project folder
+    │   ├── Datasheet           # Datasheet collection
+    │   ├── Graphics            # Custom graphics for PCB
+    │   └── gerber              # gerber output folder
+    └── ...
  
