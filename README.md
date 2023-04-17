@@ -9,3 +9,14 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/TVZ_KTM_ApplicationBoard)](https://github.com/jkordek1/myDAQ-Expansion-Board/pulls)
  
  </div>
+
+Expansion board for two Nucleo 64 boards (master and slave), developed in 2022 for students studying at Zagreb university of applied sciences.
+It enables quick and easy firmware development without the need of connecting different modules via breadboard and jumpers.
+ 
+ ## Features
+ - Toggle switches
+ - LEDs
+ - MCP2551 high-speed CAN transceiver
+ - Digital I2C temperature sensor with address selection jumpers
+ - Probe clips for easy oscilloscope connections
+ 
