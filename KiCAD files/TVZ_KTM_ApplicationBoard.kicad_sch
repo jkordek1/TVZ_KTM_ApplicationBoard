@@ -3110,7 +3110,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4511e6e-d37d-4561-a934-8d318b24a997)
   )
-  (text "- LEDice nisu spojene (Green)\n- provjeriti vrijednosti otpornika za LEDice\n- provjeriti vrijednosti pullup otpronika za senzor temperature\n- odvojiti i2c i spi (jumperima ili promijeniti pinove)\n- provjeriti da li su potrebni pullup za međusobnu kom. i pullup za temp senzor ili mogu biti samo jedni\n- sastaviti BOM"
+  (text "- LEDice nisu spojene (Green)\n- Dodati još negdje ground\n- provjeriti vrijednosti otpornika za LEDice\n- provjeriti vrijednosti pullup otpronika za senzor temperature\n- odvojiti i2c i spi (jumperima ili promijeniti pinove)\n- provjeriti da li su potrebni pullup za međusobnu kom. i pullup za temp senzor ili mogu biti samo jedni\n- sastaviti BOM"
     (at 15.24 191.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid faaca1da-f601-4367-9df8-043b2a029e47)
@@ -4193,31 +4193,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 115.57 59.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 21f982a9-7eac-42e0-bb17-4d7f59a061bd)
-    (property "Reference" "TP16" (at 116.967 56.1868 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 116.967 57.4552 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Footprint:KEYS4952" (at 120.65 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 120.65 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3cdc745c-95b8-4d5a-9376-6c3c322ffaab))
-    (instances
-      (project "TVZ_KTM_ApplicationBoard"
-        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
-          (reference "TP16") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 121.92 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23561722-af69-45bf-8371-1176468e1861)
@@ -5067,31 +5042,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 106.68 59.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 59ccc7f3-1960-4e69-9689-684a665eba1d)
-    (property "Reference" "TP15" (at 108.077 56.1868 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 108.077 57.4552 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Footprint:KEYS4952" (at 111.76 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5522d66a-2029-4aae-8eee-a8b023442b2c))
-    (instances
-      (project "TVZ_KTM_ApplicationBoard"
-        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
-          (reference "TP15") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_name "GND_8") (lib_id "power:GND") (at 274.32 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ca09824-5c8c-4ccf-a23a-9094420163ba)
@@ -5473,31 +5423,6 @@
       (project "TVZ_KTM_ApplicationBoard"
         (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
           (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 106.68 59.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 898ade48-807a-424c-86d3-b71ecd8c4943)
-    (property "Reference" "#PWR023" (at 106.68 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 106.68 63.4984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 106.68 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 106.68 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dbc7528a-a823-4548-969b-849cdf6a27ee))
-    (instances
-      (project "TVZ_KTM_ApplicationBoard"
-        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
-          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -6491,31 +6416,6 @@
       (project "TVZ_KTM_ApplicationBoard"
         (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
           (reference "#PWR0107") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 115.57 59.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eb62535a-3e74-4af9-aa75-7bad05e68ae4)
-    (property "Reference" "#PWR024" (at 115.57 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 115.57 63.4984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 115.57 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 115.57 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 08e3d7e7-c034-4698-83bd-a32da5212008))
-    (instances
-      (project "TVZ_KTM_ApplicationBoard"
-        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
-          (reference "#PWR024") (unit 1)
         )
       )
     )
