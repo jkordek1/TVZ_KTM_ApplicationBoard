@@ -441,7 +441,26 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/CANH": "rgb(0, 0, 255)",
+      "/CANL": "rgb(0, 0, 255)",
+      "PA10_1": "rgb(0, 132, 0)",
+      "PA11_1": "rgb(0, 0, 132)",
+      "PA11_2": "rgb(0, 0, 132)",
+      "PA12_1": "rgb(0, 0, 132)",
+      "PA12_2": "rgb(0, 0, 132)",
+      "PA4_1": "rgb(255, 0, 0)",
+      "PA4_2": "rgb(255, 0, 0)",
+      "PA7_BUSY": "rgb(255, 255, 194)",
+      "PA8_STROBE": "rgb(255, 255, 194)",
+      "PA9_1": "rgb(0, 132, 0)",
+      "PB3_SCK": "rgb(0, 255, 0)",
+      "PB4_MISO": "rgb(0, 255, 0)",
+      "PB5_MOSI": "rgb(0, 255, 0)",
+      "PB6_~{CS}": "rgb(0, 255, 0)",
+      "PB8_1": "rgb(0, 72, 0)",
+      "PB9_1": "rgb(0, 72, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
