@@ -442,24 +442,16 @@
       "version": 3
     },
     "net_colors": {
-      "/CANH": "rgb(0, 0, 255)",
-      "/CANL": "rgb(0, 0, 255)",
-      "PA10_1": "rgb(0, 132, 0)",
-      "PA11_1": "rgb(0, 0, 132)",
-      "PA11_2": "rgb(0, 0, 132)",
-      "PA12_1": "rgb(0, 0, 132)",
-      "PA12_2": "rgb(0, 0, 132)",
-      "PA4_1": "rgb(255, 0, 0)",
+      "/CANH": "rgb(0, 194, 0)",
+      "/CANL": "rgb(0, 194, 0)",
+      "I2C_SCL": "rgb(0, 255, 0)",
+      "I2C_SDA": "rgb(0, 255, 0)",
       "PA4_2": "rgb(255, 0, 0)",
       "PA7_BUSY": "rgb(255, 255, 194)",
       "PA8_STROBE": "rgb(255, 255, 194)",
-      "PA9_1": "rgb(0, 132, 0)",
-      "PB3_SCK": "rgb(0, 255, 0)",
-      "PB4_MISO": "rgb(0, 255, 0)",
-      "PB5_MOSI": "rgb(0, 255, 0)",
-      "PB6_~{CS}": "rgb(0, 255, 0)",
-      "PB8_1": "rgb(0, 72, 0)",
-      "PB9_1": "rgb(0, 72, 0)"
+      "USART_RX(M) >> USART_TX(S)": "rgb(0, 0, 255)",
+      "USART_TX(M) >> USART_RX(S)": "rgb(0, 0, 255)",
+      "unconnected-(U4-VBAT-Pad33)": "rgb(0, 255, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
@@ -523,6 +515,14 @@
     [
       "e6e1ba2c-0a46-4bca-b3ad-33e778ea698b",
       ""
+    ],
+    [
+      "7b36bbe9-69d8-437c-a840-f4b4d6c93da6",
+      "Master"
+    ],
+    [
+      "5131e22c-8c1d-4cfc-85c2-f588b7754c75",
+      "Slave"
     ]
   ],
   "text_variables": {}
