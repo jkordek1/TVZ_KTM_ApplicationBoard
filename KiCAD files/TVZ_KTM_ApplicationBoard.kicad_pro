@@ -200,7 +200,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1339850|406400|5c7970b7-4a15-470f-8bc4-bc8419fa016b|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -444,11 +446,10 @@
     "net_colors": {
       "/CANH": "rgb(0, 194, 0)",
       "/CANL": "rgb(0, 194, 0)",
+      "BUSY": "rgb(255, 255, 194)",
       "I2C_SCL": "rgb(0, 255, 0)",
       "I2C_SDA": "rgb(0, 255, 0)",
-      "PA4_2": "rgb(255, 0, 0)",
-      "PA7_BUSY": "rgb(255, 255, 194)",
-      "PA8_STROBE": "rgb(255, 255, 194)",
+      "STROBE": "rgb(255, 255, 194)",
       "USART_RX(M) >> USART_TX(S)": "rgb(0, 0, 255)",
       "USART_TX(M) >> USART_RX(S)": "rgb(0, 0, 255)",
       "unconnected-(U4-VBAT-Pad33)": "rgb(0, 255, 0)"
