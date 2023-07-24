@@ -1107,7 +1107,6 @@
   )
 
   (no_connect (at 181.61 119.38) (uuid 4bcc1572-e72e-4475-88b7-f4773c846bc0))
-  (no_connect (at 150.495 160.02) (uuid 5f1cd19f-04b2-49e1-9188-ec5d2bd25830))
   (no_connect (at 73.025 113.03) (uuid dad33f6c-d343-4aeb-ab21-0f70a0d547f4))
   (no_connect (at 254.635 119.38) (uuid e6490f22-e3c1-42d1-a5a6-c1250d386c10))
 
@@ -1389,10 +1388,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12b3f9ab-512e-447f-9a6b-131148c01079)
   )
-  (text "DAC SLAVE" (at 147.955 174.625 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9cd56d20-fb83-4d97-8f58-72fe7945c6c0)
-  )
   (text "BUSY" (at 107.95 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4511e6e-d37d-4561-a934-8d318b24a997)
@@ -1563,6 +1558,31 @@
       (project "TVZ_KTM_ApplicationBoard"
         (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_29") (lib_id "power:GND") (at 150.495 160.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0b2d72ec-2063-477d-90f9-d36493f79161)
+    (property "Reference" "#PWR023" (at 150.495 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 150.495 164.4634 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 150.495 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 150.495 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad3c9d72-2faa-4e01-9be1-e6f27217e608))
+    (instances
+      (project "TVZ_KTM_ApplicationBoard"
+        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
