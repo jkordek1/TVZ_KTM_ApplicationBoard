@@ -1931,6 +1931,31 @@
     )
   )
 
+  (symbol (lib_id "power:VDD") (at 200.66 26.035 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 478dcea2-2a40-42c0-a70a-63b1d63e1f51)
+    (property "Reference" "#PWR023" (at 200.66 29.845 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 200.66 21.9019 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 200.66 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 200.66 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 975e93f3-affc-410a-8966-194d6312de98))
+    (instances
+      (project "TVZ_KTM_ApplicationBoard"
+        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Interface_CAN_LIN:MCP2551-I-P") (at 241.935 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 508fc923-efcc-401c-8b78-df9302dec5d2)
@@ -2389,6 +2414,31 @@
       (project "TVZ_KTM_ApplicationBoard"
         (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
           (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 200.66 26.035 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid abb6d4cb-e014-4258-9f22-f8e3532aeb50)
+    (property "Reference" "#FLG04" (at 200.66 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 202.311 27.7388 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 200.66 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 200.66 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d5406276-430c-4c7c-b942-144d8e389ff3))
+    (instances
+      (project "TVZ_KTM_ApplicationBoard"
+        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
+          (reference "#FLG04") (unit 1)
         )
       )
     )
