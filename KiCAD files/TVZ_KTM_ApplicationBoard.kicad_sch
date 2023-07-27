@@ -1064,6 +1064,58 @@
         )
       )
     )
+    (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VDD" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VDD\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VDD_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VDD_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 217.805 121.285) (diameter 0) (color 0 0 0 0)
@@ -1383,7 +1435,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 12872fa7-e079-4564-bf08-78ce361cfaa5)
   )
-  (text "TODO:\n- obratiti pozornost na MSB i LSB kod rasporeda sklopki, LEDica i ostalih elemenata\n- provjeriti TP14 (jel treba DAC slave?)\n- MCP2551 naponsko djelilo ( RX na 3.3V?)\n- LED13 nije spojena, čemu ono služi? (mislim da je za DAC slave?)\n- sitotisak pinovi"
+  (text "TODO:\n- provjeriti TP14 (jel treba DAC slave?)\n- LED13 nije spojena, čemu ono služi? (mislim da je za DAC slave?)"
     (at 15.875 191.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12b3f9ab-512e-447f-9a6b-131148c01079)
@@ -1448,6 +1500,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 602db7b4-29d6-4e8c-b5de-33d40e1d88a8)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 226.06 73.7121 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "DAC(S)" (shape input) (at 150.495 160.02 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 61d05d08-7a74-4e83-9003-4e26d0603ea0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 150.495 169.5367 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1558,31 +1617,6 @@
       (project "TVZ_KTM_ApplicationBoard"
         (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
           (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_29") (lib_id "power:GND") (at 150.495 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0b2d72ec-2063-477d-90f9-d36493f79161)
-    (property "Reference" "#PWR023" (at 150.495 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 150.495 164.4634 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 150.495 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 150.495 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ad3c9d72-2faa-4e01-9be1-e6f27217e608))
-    (instances
-      (project "TVZ_KTM_ApplicationBoard"
-        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
-          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2082,6 +2116,31 @@
     )
   )
 
+  (symbol (lib_id "power:VDD") (at 241.935 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6cc9e4c3-745a-4f97-b19b-dd69d1c28088)
+    (property "Reference" "#PWR026" (at 241.935 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 241.935 100.0069 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 241.935 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 241.935 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e44d8b14-0687-44be-8114-6135f1f0cab5))
+    (instances
+      (project "TVZ_KTM_ApplicationBoard"
+        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_name "GND_9") (lib_id "power:GND") (at 239.395 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f967518-ca1c-4d0e-b0c7-879baaf0718c)
@@ -2330,31 +2389,6 @@
       (project "TVZ_KTM_ApplicationBoard"
         (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
           (reference "#PWR027") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 241.935 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid aa225c69-93a3-456d-ba1e-8c5f4138cad4)
-    (property "Reference" "#PWR026" (at 241.935 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 241.935 100.5642 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 241.935 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 241.935 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8aad9fda-532d-49c5-b28c-3575f67710e7))
-    (instances
-      (project "TVZ_KTM_ApplicationBoard"
-        (path "/e6e1ba2c-0a46-4bca-b3ad-33e778ea698b"
-          (reference "#PWR026") (unit 1)
         )
       )
     )
