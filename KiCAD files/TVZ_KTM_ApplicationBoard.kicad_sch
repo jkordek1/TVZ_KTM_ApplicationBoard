@@ -1435,11 +1435,6 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 12872fa7-e079-4564-bf08-78ce361cfaa5)
   )
-  (text "TODO:\n- provjeriti TP14 (jel treba DAC slave?)\n- LED13 nije spojena, čemu ono služi? (mislim da je za DAC slave?)"
-    (at 15.875 191.77 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 12b3f9ab-512e-447f-9a6b-131148c01079)
-  )
   (text "BUSY" (at 107.95 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4511e6e-d37d-4561-a934-8d318b24a997)
