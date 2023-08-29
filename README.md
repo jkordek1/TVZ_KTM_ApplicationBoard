@@ -9,7 +9,7 @@ Expansion board for two Nucleo 64 boards (master and slave), developed in 2022 f
 It enables quick and easy firmware development without the need of connecting different modules via breadboard and jumpers.
 
 ## Work in progress
-This project is market as work in progress and is not ready yet for a full release.
+This project is marked as work in progress and is not ready yet for a full release.
 
  ## Features
  - Toggle switches
