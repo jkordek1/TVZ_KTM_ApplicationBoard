@@ -1431,6 +1431,11 @@
     (uuid fe94678a-b35c-4cac-95b7-9903f6b843d3)
   )
 
+  (text "TODO:\n- LED PA15 premjestiti na PA9 u kicadu i brikati na testnoj pločici"
+    (at 25.4 177.165 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0edc5d93-3974-4a6c-b71f-00ddf73db6b5)
+  )
   (text "CAN" (at 213.36 97.155 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 12872fa7-e079-4564-bf08-78ce361cfaa5)
