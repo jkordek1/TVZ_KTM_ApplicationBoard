@@ -1439,6 +1439,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4511e6e-d37d-4561-a934-8d318b24a997)
   )
+  (text "- dodati SCK ušicu" (at 25.4 187.325 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f5bb87b9-4f23-413a-9857-0306e8c7320f)
+  )
 
   (label "CANH" (at 222.25 112.395 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
