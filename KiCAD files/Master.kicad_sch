@@ -1082,7 +1082,7 @@
     (uuid 9a1a7747-7e46-4cbb-a50c-5518b9807d3e)
   )
   (text "PC13 je spojen na ugrađeno tipkalo\nPC14 i PC15 su spojeni na oscilator"
-    (at 69.215 135.255 0)
+    (at 75.565 130.175 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aaca9784-e8a7-4e4c-8d8e-190096ca2e70)
   )
