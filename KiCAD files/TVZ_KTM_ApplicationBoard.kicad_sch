@@ -1439,6 +1439,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4511e6e-d37d-4561-a934-8d318b24a997)
   )
+  (text "zelene 80R6\nplave 220\ncrvene 750" (at 36.195 177.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f4ea7d09-9115-425b-8fda-b0e224425cbd)
+  )
 
   (label "CANH" (at 222.25 112.395 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
