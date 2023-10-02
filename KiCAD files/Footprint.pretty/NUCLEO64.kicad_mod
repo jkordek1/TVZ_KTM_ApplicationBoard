@@ -101,4 +101,14 @@
   (pad "74" thru_hole circle (at 63.5 43.18) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp ad42ab31-99be-446c-bc40-52fafa119541))
   (pad "75" thru_hole circle (at 60.96 45.72) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 845fde18-e270-4d33-92f6-9bee20544152))
   (pad "76" thru_hole circle (at 63.5 45.72) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 861d027a-71e1-4b8b-b34a-d2314e5a162b))
+  (model "C:/Users/Josip/Documents/GitHub/TVZ_KTM_ApplicationBoard/3d models/PinSocket_2x19_P2.54mm_Vertical.step"
+    (offset (xyz 60.95 0 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model "C:/Users/Josip/Documents/GitHub/TVZ_KTM_ApplicationBoard/3d models/PinSocket_2x19_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
+  )
 )
