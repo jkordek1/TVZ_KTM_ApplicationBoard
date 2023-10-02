@@ -10,7 +10,7 @@ It enables quick and easy firmware development without the need of connecting di
 
 ## Images
 <p align="center">
- <img width="800" src="https://raw.githubusercontent.com/jkordek1/TVZ_KTM_ApplicationBoard/main/Images/front.png">
+ <img width="1000" src="https://raw.githubusercontent.com/jkordek1/TVZ_KTM_ApplicationBoard/main/Images/front.png">
 </p>
 
 ## Work in progress
