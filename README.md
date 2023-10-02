@@ -8,6 +8,11 @@
 Expansion board for two Nucleo 64 boards (master and slave), developed in 2022 for students studying at Zagreb university of applied sciences.
 It enables quick and easy firmware development without the need of connecting different modules via breadboard and jumpers.
 
+## Images
+<p align="center">
+ <img width="800" src="https://raw.githubusercontent.com/jkordek1/TVZ_KTM_ApplicationBoard/main/Images/front.png">
+</p>
+
 ## Work in progress
 This project is marked as work in progress and is not ready yet for a full release.
 
