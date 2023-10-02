@@ -16,6 +16,7 @@ This project is marked as work in progress and is not ready yet for a full relea
  - LEDs
  - MCP2551 high-speed CAN transceiver
  - Digital I2C temperature sensor with address selection jumpers
+ - UART, CAN, Parallel, analog, SPI and I2C communications between master and slave
  - Probe clips for easy oscilloscope connections
  
  ## Folder structure
