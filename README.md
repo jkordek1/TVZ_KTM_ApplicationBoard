@@ -13,8 +13,8 @@ It enables quick and easy firmware development without the need of connecting di
  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/TVZ_KTM_ApplicationBoard/main/Images/front.png">
 </p>
 
-## Work in progress
-This project is marked as work in progress and is not ready yet for a full release.
+## Finished
+This project is marked as finished. Expansion board is actively being used for laboratory exercises with students.
 
  ## Features
  - Toggle switches
